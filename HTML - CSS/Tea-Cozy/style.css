@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1290px) {
+
+        html {
+        background-color: black;
+        font-family: Helvetica, sans-serif;
+        font-size: 22px;
+        color: seashell;
+        opacity: 0.9;
+        max-width: 1290px;
+    }
+
+    section {
+        display: flex;
+        max-width: 1290px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+
+    aside p {
+        text-align: center;
+    }
+
+    /* Header */
+
+    header {
+        position: fixed;
+        width: 100%;
+        border-bottom: 1px solid seashell;
+        display:inline-block;
+        height: 69px;
+    }
+
+    .logo img {
+        float: left;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: seashell;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: underline;
+    }
+
+    /* SECTIONS */
+
+    #section1 {
+        background-image: url(./images/background.png);
+        margin-top: 44px;
+        width: 1200px;
+        height: 700px;
+    }
+
+    .content {
+        height: 100px;
+        background-color: black;
+        margin-top: 300px;
+        align-items: center;
+        justify-items: center;
+        flex-wrap: wrap;
+    }
+
+    .content h2 {
+        padding-top: 10px;
+        margin-bottom: -12px;
+    }
+
+    #section2 {
+        margin-top: 96px;
+        width: 1000px;
+        display: flex;
+    }
+
+    #featured {
+        display: flex;
+
+        align-items: center;
+        align-content: center;
+    }
+
+    .images-container {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-rows: 3 2;
+        justify-content: center;
+    }
+
+    figure {
+        margin: 15px;
+    }
+
+    .caption {
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #section3 {
+        width: 1200px;
+        height: 500px;
+        margin-top: 70px;
+        background-image: url(./images/locations.png);
+    }
+
+    .cards {
+        display: flex;
+        padding: 40px;
+        align-items: left;
+        align-content: flex-start;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .cardinfo {
+        background-color: black;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
+
+    aside {
+        margin-top: 50px;
+        height: 200px;
+    }
+}
+
